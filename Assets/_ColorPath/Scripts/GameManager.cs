@@ -106,6 +106,7 @@ public class GameManager : MonoBehaviour
     void PlayerController_PlayerDied()
     {
         GameOver();
+        Debug.Log("die");
     }
 
     // Make initial setup and preparations before the game can be played
